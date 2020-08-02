@@ -12,17 +12,17 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
-    <div class="container bg-white col-3 mt-5">
-      <div class="row pl-3">
-        <p class="h1" id="icon">&clubs;</p>
-      </div>
-      <div class="row justify-content-center my-5">
-        <p class="letter" id="letter">J</p>
-      </div>
-      <div class="row justify-content-end pr-3">
-        <p class="h1" id="icon">&clubs;</p>
-      </div>
+    <div class="row pl-5 pt-3">
+      <h2 class="mr-2">Original:</h2>
+      <input type="number" />
+      <button class="ml-3 mr-1 rounded" id="buttonDraw" onclick="drawCards()">
+        Draw
+      </button>
+      <button class="rounded">Sort</button>
     </div>
+
+    <div class="row" id="spaceRandomCard"></div>
   </body>
 </html>
